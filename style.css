@@ -1,0 +1,201 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+h1{
+    font-size: 56px;
+    line-height: 56px;
+    color: #21243d;
+    margin: 0; 
+}
+h3{
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0;
+}
+p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #625e5e;
+    margin: 0;
+}
+
+.navContainor{
+    background-color: rgba(62, 100, 255, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.navContainor a{
+    text-decoration: none;
+    font-size: larger;
+    margin-right: 50px;
+    color: black;
+}
+.navContainor a:hover{
+    color: white;
+    transition: .1s linear;
+    
+}
+.blueparent{
+    background-color:rgba(62, 100, 255, 0.1);
+}
+.herocontainor{
+    display: flex;
+    padding: 120px 80px;
+    max-width: 1100px;
+    margin: auto;
+}
+.hero-content{
+    flex: 2;
+}
+.hero-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.hero-image img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+
+}
+.hero-content h1{
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+.hero-content p{
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+.hero-content a{
+    background-color: blue;
+    text-decoration: none;
+    padding: 17px 32px;
+    font-size: 18px;
+    color: aliceblue;
+    border-radius: 8px;
+}
+.Skill-Containor{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    
+ }
+ .Skill-Containor h1{
+     padding-bottom: 20px;
+     border-bottom:  3px solid rgba(0, 0, 255, 0.301);
+}
+.Skill-Containor span{
+margin-top: 20px;
+
+}
+.SkillsitemContainor{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: 100%;
+    grid-gap: 40px;
+    justify-self: center;
+    padding-left: 250px;
+}
+.outerdiv{
+    width: 100%;
+    height: 20px;
+    border-radius: 6px;
+    background-color: white;
+
+}
+.htmldiv{
+    width: 60%;
+    height: 20px;
+    border-radius: 6px;
+    background-color:blue;
+   
+}
+.skillitem{
+    justify-content: center;
+}
+.skillitem p{
+    margin-bottom: 10px;
+    
+  
+}
+.cssdiv{
+    width:80%;
+    height:20px;
+    border-radius: 6px;
+    background-color:blue;
+}
+.gitdiv{
+    width: 40%;
+    height: 20px;
+    border-radius: 6px;
+    background-color:blue;
+}
+.jsdiv{
+    width: 40%;
+    height: 20px;
+    border-radius: 6px;
+    background-color:blue;  
+}
+.blueparent{
+    background-color: rgba(62, 100, 255, 0.1);
+
+
+}
+.ProjectContainor{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+.ProjectContainor h1{
+    padding-bottom: 20px;
+    border-bottom:  3px solid rgba(0, 0, 255, 0.342);
+}
+.projectitemcontainor{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    width: 100%;
+    grid-gap: 80px;
+}
+.Project{
+    border: 3px solid #ececec;
+    padding: 40px;
+    background: white;
+    border-radius: 16px;
+}
+.Project p{
+    margin-top: 20px;
+}
+.footer{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Social{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+   
+}
